@@ -1,0 +1,17 @@
+name: "ipaddress"
+description:
+    "Port of the 3.3+ ipaddress module to 2.6, 2.7, 3.2"
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://pypi.org/project/ipaddress/"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/phihag/ipaddress"
+  }
+  version: "v1.0.22"
+  last_upgrade_date { year: 2019 month: 5 day: 2 }
+  license_type: NOTICE
+}
