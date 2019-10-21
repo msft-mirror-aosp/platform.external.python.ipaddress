@@ -1,16 +1,16 @@
 There are three backports of ipaddress in the wild:
 
-phihag/ipaddress ([ipaddress on PyPi](https://pypi.python.org/pypi/ipaddress)):
+phihag/ipaddress ([ipaddress on PyPI](https://pypi.org/project/ipaddress/)):
 > First commit:  2013-02-03<br>
 > First release: 2013-02-04<br>
-> Latest commit: 2017-01-11
+> Latest commit: 2018-06-10 (as of June 2018)
 
-kwi/py2-ipaddress ([py2-ipaddress on PyPi](https://pypi.python.org/pypi/py2-ipaddress))
+kwi/py2-ipaddress ([py2-ipaddress on PyPI](https://pypi.org/project/py2-ipaddress/))
 > First commit:  2013-08-08<br>
 > First release: 2013-08-08<br>
 > Latest commit: 2015-07-14
 
-sk-/backport_ipaddress ([backport_ipaddress on PyPi](https://pypi.python.org/pypi/backport_ipaddress))
+sk-/backport_ipaddress ([backport_ipaddress on PyPI](https://pypi.org/project/backport_ipaddress/))
 > First commit:  2014-08-15<br>
 > First release: 2014-09-01<br>
 > Latest commit: 2014-08-16 (!)
@@ -19,7 +19,7 @@ In addition, judging by http://pypi-ranking.info/search/ipaddress/ , this backpo
 
 sk-/backport_ipaddress is a fork of kwi/py2-ipaddress. As you can see from the above dates, the project has basically never been updated after being released. So I'm just going to focus on my ipaddress vs py2-ipaddress. Mine has nearly 40x the download count.
 
-As you can also see from the above stats, py2-ipaddress has not been updated for over a year. Sure, it's a backport and thus does not necessitate frequent updating, but for instance cPython has fixed a couple of bugs just recently, and they are certainly still present in py2-ipaddress. In contrast, I can and do regularly sync. Upstream cPython code is in the upstream branch and just gets merged, so you can sync if you need the bleeding-edge ipaddress code (but a pull request or issue would be fine too if that's what you need).
+As you can also see from the above stats, py2-ipaddress has not been updated for over two years. Sure, it's a backport and thus does not necessitate frequent updating, but for instance cPython has fixed a couple of bugs just recently, and they are certainly still present in py2-ipaddress. In contrast, I can and do regularly sync. Upstream cPython code is in the upstream branch and just gets merged, so you can sync if you need the bleeding-edge ipaddress code (but a pull request or issue would be fine too if that's what you need).
 
 But I don't think it's even necessary to argument from metadata, when the technical facts speak for themselves:
 
